@@ -78,7 +78,7 @@ a {
 }
 .menu__link:hover {
   opacity: 1;
-  text-decoration: underline;
+  border-bottom: 1px solid #fff;
 }
 .header__logo {
   position: absolute;
