@@ -353,3 +353,62 @@ ul {
   margin-top: 6px;
   width: 180px;
 }
+.singup {
+  position: relative;
+  width: 100%;
+  height: 598px;
+  background-image: url('./assets/img/singup/image-bg.jpg');
+  background-repeat: no-repeat;
+}
+.singup__form {
+  position: absolute;
+  top: 216px;
+  left: 597px;
+  width: 406px;
+  height: 105px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.singup__caption {
+  margin: 0;
+  padding: 0 0 0 13px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.singup__email {
+  display: inline-block;
+  width: 340px;
+  height: 46px;
+  margin-top: 30px;
+  border: 0;
+  padding: 14px 23px 12px 23px;
+  border: 0;
+  outline: 0;
+}
+.singup__email::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #373737;
+}
+.singup__email:required:invalid:focus {
+  border: 2px solid #ff0000;
+}
+.singup__email:required:valid:focus {
+  border: 2px solid #00ff00;
+}
+.singup__submit {
+  display: inline-block;
+  width: 66px;
+  height: 46px;
+  background: #00AFDB;
+  border: 0;
+  outline: 0;
+  padding: 0;
+}
+.singup__submit:hover {
+  background: #009CC2;
+}
