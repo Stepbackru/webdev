@@ -146,7 +146,7 @@ ul {
   text-align: center;
   line-height: 23px;
 }
-.btn__started {
+.btn {
   margin-top: 16px;
   padding: 0 6px 0 3px;
   width: 184px;
@@ -160,7 +160,7 @@ ul {
   border: 0;
   outline: 0;
 }
-.btn__started:hover {
+.btn:hover {
   background: #009CC2;
 }
 .socials {
@@ -217,7 +217,7 @@ ul {
 .rasp__text > strong {
   color: #4E4E4E;
 }
-.rapp__content > .btn__started {
+.rapp__content > .btn {
   margin-top: 6px;
 }
 .rapp__img {
@@ -307,4 +307,49 @@ ul {
 }
 .slider-nav__item {
   padding: 0 2.89px;
+}
+
+.impl {
+  position: relative;
+  width: 100%;
+  height: 842px;
+  background: #fff;
+}
+.impl__img {
+  position: absolute;
+  top: 120px;
+  left: 269px;
+  width: 407px;
+  height: 582px;
+}
+.impl__content {
+  position: absolute;
+  top: 318px;
+  right: 378px;
+  width: 407px;
+  height: 184px;
+}
+.impl__caption {
+  width: 298px;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #373737;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.impl__text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #373737;
+  margin: 22px 0;
+  line-height: 20px;
+}
+.impl__text > strong {
+  color: #4E4E4E;
+}
+.impl__content > .btn {
+  margin-top: 6px;
+  width: 180px;
 }
