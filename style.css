@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   outline: none;
 }
+button:hover {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
 .visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -90,4 +96,70 @@ a {
 .logo__link {
   display: block;
   height: 100%;
+}
+.header__content {
+  position: absolute;
+  top: 229px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header__title {
+  height: 75px;
+  margin: 0;
+  padding-left: 4px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4.6px;
+}
+.header__text {
+  padding-top: 7px;
+  width: 504px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+}
+.btn__started {
+  margin-top: 16px;
+  padding: 0 6px 0 3px;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -0.7px;
+  border: 0;
+  outline: 0;
+}
+.btn__started:hover {
+  background: #009CC2;
+}
+.socials {
+  position: absolute;
+  bottom: 89px;
+  width: 100%;
+}
+.socials__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials__item {
+  padding: 0 15px;
+}
+.socials__link {
+  display: block;
+  height: 20px;
+}
+.socials__img:hover {
+  transform: scale(1.2);
 }
