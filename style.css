@@ -482,8 +482,7 @@ ul {
   background: #000;
 }
 .footer__row {
-  position: absolute;
-  top: 60px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -524,6 +523,10 @@ ul {
 }
 .footer__menu-item:nth-child(2)::after {
   right: 103px;
+}
+.footer__row > .logo {
+  top: 60px;
+  height: 45px;
 }
 .footer__copy {
   font-size: 14px;
