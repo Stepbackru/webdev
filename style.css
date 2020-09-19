@@ -112,10 +112,9 @@ ul {
   position: absolute;
   top: 0;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  justify-self: start;
-  width: 100%;
+  width: 1600px;
   height: 744px;
   background-image: url('./assets/img/bg-image.png');
   background-repeat: no-repeat;
@@ -126,7 +125,7 @@ ul {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 229px 0 0 196px;
+  padding-top: 120px;
 }
 .main-page__title {
   height: 75px;
@@ -166,8 +165,10 @@ ul {
   background: #009CC2;
 }
 .socials {
-  padding: 183px 0 0 196px;
-  width: 100%;
+  padding: 183px 0 0 0;
+  margin: 0 auto;
+  width: 170px;
+  height: 20px;
 }
 .socials__list {
   display: flex;
