@@ -39,7 +39,6 @@ ul {
   clip: rect(1px, 1px, 1px, 1px);
 }
 .wrapper {
-  position: relative;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -48,18 +47,18 @@ ul {
   overflow: hidden;
 }
 .header {
-  position: relative;
+  display: flex;
   width: 100%;
   height: 70px;
 }
 .header__row {
-  position: absolute;
-  top: 25px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 45px;
+  margin-top: 25px;
   z-index: 50;
 }
 .menu__list {
@@ -112,19 +111,22 @@ ul {
 .main-page__bg {
   position: absolute;
   top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: start;
   width: 100%;
   height: 744px;
   background-image: url('./assets/img/bg-image.png');
   background-repeat: no-repeat;
 }
 .main-page__content {
-  position: absolute;
-  top: 229px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 229px 0 0 196px;
 }
 .main-page__title {
   height: 75px;
@@ -137,18 +139,18 @@ ul {
   letter-spacing: 4.6px;
 }
 .main-page__text {
-  padding-top: 7px;
+  padding-top: 5px;
   width: 504px;
   height: 50px;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
   text-align: center;
-  line-height: 23px;
+  line-height: 25px;
 }
 .btn {
-  margin-top: 16px;
-  padding: 0 6px 0 3px;
+  margin: 16px 2px 0 0;
+  padding: 0 4px 0 3px;
   width: 184px;
   height: 46px;
   background: #00AFDB;
@@ -164,8 +166,7 @@ ul {
   background: #009CC2;
 }
 .socials {
-  position: absolute;
-  bottom: 89px;
+  padding: 183px 0 0 196px;
   width: 100%;
 }
 .socials__list {
