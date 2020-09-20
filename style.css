@@ -10,6 +10,7 @@ html {
 }
 html, body {
   height: 100%;
+  font-size: 14px;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -206,14 +207,14 @@ ul {
   font-size: 24px;
   font-weight: 700;
   color: #373737;
-  letter-spacing: 0.998px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 .rapp__text {
   font-size: 14px;
   font-weight: 400;
   color: #373737;
-  margin: 22px 0;
+  margin: 1.56em 0;
   line-height: 20px;
 }
 .rasp__text > strong {
@@ -334,14 +335,14 @@ ul {
   font-size: 24px;
   font-weight: 700;
   color: #373737;
-  letter-spacing: 1px;
+  letter-spacing: 0.038em;
   text-transform: uppercase;
 }
 .impl__text {
   font-size: 14px;
   font-weight: 400;
   color: #373737;
-  margin: 22px 0;
+  margin: 1.56em 0;
   line-height: 20px;
 }
 .impl__text > strong {
